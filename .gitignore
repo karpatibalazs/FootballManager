@@ -1,0 +1,21 @@
+target/
+*.class
+*.jar
+*.war
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+
+# OS
+.DS_Store
+
+# Logs
+*.log
+
+# Application secrets (if any)
+application-local.properties
