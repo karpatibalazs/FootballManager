@@ -1,3 +1,5 @@
+package com.footballmanager.dto;
+
 public class PlayerSummaryDTO {
     private Long id;
     private String name;

@@ -1,4 +1,5 @@
 package com.footballmanager.dto;
+import java.util.List;
 
 public class TeamWithPlayersDTO{
     private String name;
