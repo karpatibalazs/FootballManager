@@ -5,7 +5,8 @@ public class PlayerSummaryDTO {
     private String name;
     private String position;
     private double price;
-    
+    private String teamName;
+
     public Long getId() {return id;}
     public void setId(Long id) {this.id = id;}
     public String getName() {return name;}
@@ -14,4 +15,6 @@ public class PlayerSummaryDTO {
     public void setPosition(String position) {this.position = position;}
     public double getPrice() {return price;}
     public void setPrice(double price) {this.price = price;}
+    public String getTeamName() {return teamName;}
+    public void setTeamName(String teamName) {this.teamName = teamName;}
 }
