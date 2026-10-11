@@ -12,8 +12,7 @@ public class FantasyTeam {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @OneToOne
-    @JoinColumn(name = "manager_id")
+    @OneToOne(mappedBy = "fantasyTeam")
     private Manager manager;
 
     @ManyToOne
